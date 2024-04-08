@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.cpp
+AMLVector3.h
+/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.h
+cmath
+-
+
+/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.h
+iostream
+-
+

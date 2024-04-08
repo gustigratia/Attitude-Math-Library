@@ -1,0 +1,38 @@
+Start testing: Apr 08 20:41 WIB
+----------------------------------------------------------
+1/1 Testing: test_all
+1/1 Test: test_all
+Command: "/home/soeromibergusti/AttitudeMathLib/build-dir/test/AML_Test"
+Directory: /home/soeromibergusti/AttitudeMathLib/build-dir
+"test_all" start time: Apr 08 20:41 WIB
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AML_Test is a Catch v2.13.7 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Vector3 Constructors
+-------------------------------------------------------------------------------
+/home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp:6
+...............................................................................
+
+/home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp:29: FAILED:
+  CHECK( v.x == 3.0 )
+with expansion:
+  1.0 == 3.0
+
+===============================================================================
+test cases:  1 |  0 passed | 1 failed
+assertions: 12 | 11 passed | 1 failed
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"test_all" end time: Apr 08 20:41 WIB
+"test_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 08 20:41 WIB
