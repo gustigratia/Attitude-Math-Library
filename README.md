@@ -11,8 +11,8 @@ Engineers, Game Developers, 3D Graphics Programmers all require fundamental know
 * Difficult for beginners to comprehend rotation transformations
 * Fundamental concept used in engineering and programming (from autopilot control systems to computer games)
 
-## Vector3 Class (Tested)
+## Vector3 Class 
 The Vector3 class encapsulates a three-dimensional vector, offering functionality for common vector operations such as addition, subtraction, scalar multiplication, cross product, dot product, and normalization. Whether you're dealing with positions, velocities, or directions, the Vector3 class provides a versatile and efficient implementation to handle your needs.
 
-## Matrix33 Class (On Progress)
+## Matrix33 Class 
 The Matrix33 class represents a 3x3 matrix, supporting operations such as addition, subtraction, multiplication (both scalar and matrix), inversion, and transformation of vectors. Whether you're working with rotations, transformations, or other linear mappings, the Matrix33 class offers a robust framework for manipulation.
