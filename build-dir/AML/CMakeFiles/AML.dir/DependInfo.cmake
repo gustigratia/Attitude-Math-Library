@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.cpp" "/home/soeromibergusti/AttitudeMathLib/build-dir/AML/CMakeFiles/AML.dir/AMLVector3.cpp.o"
+  "/home/soeromibergusti/Attitude-Math-Library/AML/AMLMatrix33.cpp" "/home/soeromibergusti/Attitude-Math-Library/build-dir/AML/CMakeFiles/AML.dir/AMLMatrix33.cpp.o"
+  "/home/soeromibergusti/Attitude-Math-Library/AML/AMLVector3.cpp" "/home/soeromibergusti/Attitude-Math-Library/build-dir/AML/CMakeFiles/AML.dir/AMLVector3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

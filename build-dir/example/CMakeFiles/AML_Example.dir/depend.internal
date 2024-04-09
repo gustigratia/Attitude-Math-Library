@@ -3,5 +3,6 @@
 
 example/CMakeFiles/AML_Example.dir/main.cpp.o
  ../AML/AML.h
+ ../AML/AMLMatrix33.h
  ../AML/AMLVector3.h
- /home/soeromibergusti/AttitudeMathLib/example/main.cpp
+ /home/soeromibergusti/Attitude-Math-Library/example/main.cpp

@@ -1,4 +1,4 @@
-# Install script for directory: /home/soeromibergusti/AttitudeMathLib
+# Install script for directory: /home/soeromibergusti/Attitude-Math-Library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/soeromibergusti/AttitudeMathLib/build-dir/AML/cmake_install.cmake")
-  include("/home/soeromibergusti/AttitudeMathLib/build-dir/example/cmake_install.cmake")
-  include("/home/soeromibergusti/AttitudeMathLib/build-dir/test/cmake_install.cmake")
+  include("/home/soeromibergusti/Attitude-Math-Library/build-dir/AML/cmake_install.cmake")
+  include("/home/soeromibergusti/Attitude-Math-Library/build-dir/example/cmake_install.cmake")
+  include("/home/soeromibergusti/Attitude-Math-Library/build-dir/test/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/soeromibergusti/AttitudeMathLib/build-dir/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/soeromibergusti/Attitude-Math-Library/build-dir/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

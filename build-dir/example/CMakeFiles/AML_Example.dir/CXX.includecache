@@ -9,12 +9,18 @@
 ../AML/AML.h
 AMLVector3.h
 ../AML/AMLVector3.h
+AMLMatrix33.h
+../AML/AMLMatrix33.h
+
+../AML/AMLMatrix33.h
+iostream
+-
 
 ../AML/AMLVector3.h
 iostream
 -
 
-/home/soeromibergusti/AttitudeMathLib/example/main.cpp
+/home/soeromibergusti/Attitude-Math-Library/example/main.cpp
 iostream
 -
 string
@@ -22,5 +28,5 @@ string
 cmath
 -
 AML.h
-/home/soeromibergusti/AttitudeMathLib/example/AML.h
+/home/soeromibergusti/Attitude-Math-Library/example/AML.h
 

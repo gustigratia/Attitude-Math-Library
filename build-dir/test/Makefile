@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soeromibergusti/AttitudeMathLib
+CMAKE_SOURCE_DIR = /home/soeromibergusti/Attitude-Math-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soeromibergusti/AttitudeMathLib/build-dir
+CMAKE_BINARY_DIR = /home/soeromibergusti/Attitude-Math-Library/build-dir
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(CMAKE_COMMAND) -E cmake_progress_start /home/soeromibergusti/AttitudeMathLib/build-dir/CMakeFiles /home/soeromibergusti/AttitudeMathLib/build-dir/test/CMakeFiles/progress.marks
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/soeromibergusti/AttitudeMathLib/build-dir/CMakeFiles 0
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(CMAKE_COMMAND) -E cmake_progress_start /home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles /home/soeromibergusti/Attitude-Math-Library/build-dir/test/CMakeFiles/progress.marks
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/AML_Test.dir/rule:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/AML_Test.dir/rule
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/AML_Test.dir/rule
 .PHONY : test/CMakeFiles/AML_Test.dir/rule
 
 # Convenience name for target.
@@ -179,8 +179,35 @@ AML_Test: test/CMakeFiles/AML_Test.dir/rule
 
 # fast build rule for target.
 AML_Test/fast:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/build
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/build
 .PHONY : AML_Test/fast
+
+AMLMatrix33Test.o: AMLMatrix33Test.cpp.o
+
+.PHONY : AMLMatrix33Test.o
+
+# target to build an object file
+AMLMatrix33Test.cpp.o:
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o
+.PHONY : AMLMatrix33Test.cpp.o
+
+AMLMatrix33Test.i: AMLMatrix33Test.cpp.i
+
+.PHONY : AMLMatrix33Test.i
+
+# target to preprocess a source file
+AMLMatrix33Test.cpp.i:
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.i
+.PHONY : AMLMatrix33Test.cpp.i
+
+AMLMatrix33Test.s: AMLMatrix33Test.cpp.s
+
+.PHONY : AMLMatrix33Test.s
+
+# target to generate assembly for a file
+AMLMatrix33Test.cpp.s:
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.s
+.PHONY : AMLMatrix33Test.cpp.s
 
 AMLVector3Test.o: AMLVector3Test.cpp.o
 
@@ -188,7 +215,7 @@ AMLVector3Test.o: AMLVector3Test.cpp.o
 
 # target to build an object file
 AMLVector3Test.cpp.o:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o
 .PHONY : AMLVector3Test.cpp.o
 
 AMLVector3Test.i: AMLVector3Test.cpp.i
@@ -197,7 +224,7 @@ AMLVector3Test.i: AMLVector3Test.cpp.i
 
 # target to preprocess a source file
 AMLVector3Test.cpp.i:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i
 .PHONY : AMLVector3Test.cpp.i
 
 AMLVector3Test.s: AMLVector3Test.cpp.s
@@ -206,7 +233,7 @@ AMLVector3Test.s: AMLVector3Test.cpp.s
 
 # target to generate assembly for a file
 AMLVector3Test.cpp.s:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s
 .PHONY : AMLVector3Test.cpp.s
 
 main.o: main.cpp.o
@@ -215,7 +242,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.o
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -224,7 +251,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.i
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -233,7 +260,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.s
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(MAKE) -f test/CMakeFiles/AML_Test.dir/build.make test/CMakeFiles/AML_Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -250,6 +277,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... AML_Test"
+	@echo "... AMLMatrix33Test.o"
+	@echo "... AMLMatrix33Test.i"
+	@echo "... AMLMatrix33Test.s"
 	@echo "... AMLVector3Test.o"
 	@echo "... AMLVector3Test.i"
 	@echo "... AMLVector3Test.s"
@@ -267,6 +297,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -17,5 +17,16 @@ int main(int argc, char **argv){
     std::cout << v2 << std::endl;
     std::cout << v3 << std::endl;
     std::cout << v4 << std::endl;
+
+    std::cout<<"=================================="<<std::endl;
+    double data[3][3] = {{2.3,4.1,4.0},{1.2,4.4,8.42},{0.0,9.0,0}};
+    Matrix33 Mat1 = Matrix33(data);
+
+    Vector3 v5 = Vector3(1,0,0);
+    Vector3 v6 = Mat1 * v5; 
+
+    std::cout << v5 << std::endl;
+    std::cout << Mat1 << std::endl;
+    std::cout << v6 << std::endl;
     return 0;
 }

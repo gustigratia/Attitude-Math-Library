@@ -1,4 +1,4 @@
-# Install script for directory: /home/soeromibergusti/AttitudeMathLib/AML
+# Install script for directory: /home/soeromibergusti/Attitude-Math-Library/AML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

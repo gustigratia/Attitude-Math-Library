@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/soeromibergusti/AttitudeMathLib/AML 
+CXX_INCLUDES = -I/home/soeromibergusti/Attitude-Math-Library/AML 
 

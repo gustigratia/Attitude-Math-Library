@@ -9,18 +9,24 @@
 ../AML/AML.h
 AMLVector3.h
 ../AML/AMLVector3.h
+AMLMatrix33.h
+../AML/AMLMatrix33.h
+
+../AML/AMLMatrix33.h
+iostream
+-
 
 ../AML/AMLVector3.h
 iostream
 -
 
-/home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp
+/home/soeromibergusti/Attitude-Math-Library/test/AMLMatrix33Test.cpp
 catch/catch.hpp
-/home/soeromibergusti/AttitudeMathLib/test/catch/catch.hpp
+/home/soeromibergusti/Attitude-Math-Library/test/catch/catch.hpp
 AML.h
-/home/soeromibergusti/AttitudeMathLib/test/AML.h
+/home/soeromibergusti/Attitude-Math-Library/test/AML.h
 
-/home/soeromibergusti/AttitudeMathLib/test/catch/catch.hpp
+/home/soeromibergusti/Attitude-Math-Library/test/catch/catch.hpp
 TargetConditionals.h
 -
 cstddef
@@ -402,7 +408,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/home/soeromibergusti/AttitudeMathLib/test/catch/Foundation/Foundation.h
+/home/soeromibergusti/Attitude-Math-Library/test/catch/Foundation/Foundation.h
 algorithm
 -
 signal.h

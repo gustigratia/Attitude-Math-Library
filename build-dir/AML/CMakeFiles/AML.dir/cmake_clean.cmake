@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/AML.dir/AMLMatrix33.cpp.o"
   "CMakeFiles/AML.dir/AMLVector3.cpp.o"
   "libAML.a"
   "libAML.pdb"

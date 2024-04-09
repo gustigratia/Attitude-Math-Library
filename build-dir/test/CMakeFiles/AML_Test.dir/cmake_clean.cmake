@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "AML_Test"
   "AML_Test.pdb"
+  "CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o"
   "CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o"
   "CMakeFiles/AML_Test.dir/main.cpp.o"
 )

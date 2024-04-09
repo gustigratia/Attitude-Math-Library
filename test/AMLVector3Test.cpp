@@ -24,7 +24,7 @@ TEST_CASE("Vector3 Constructors", "[Vector3]")
     CHECK(v.z == 3.0);
 
     // Case 4
-    double data[3] = {1.0,2.0,1.0};
+    double data[3] = {3.0,2.0,1.0};
     v = Vector3(data);
     CHECK(v.x == 3.0);
     CHECK(v.y == 2.0);

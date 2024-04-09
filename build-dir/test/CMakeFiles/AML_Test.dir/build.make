@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soeromibergusti/AttitudeMathLib
+CMAKE_SOURCE_DIR = /home/soeromibergusti/Attitude-Math-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soeromibergusti/AttitudeMathLib/build-dir
+CMAKE_BINARY_DIR = /home/soeromibergusti/Attitude-Math-Library/build-dir
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/AML_Test.dir/depend.make
@@ -59,45 +59,60 @@ include test/CMakeFiles/AML_Test.dir/flags.make
 
 test/CMakeFiles/AML_Test.dir/main.cpp.o: test/CMakeFiles/AML_Test.dir/flags.make
 test/CMakeFiles/AML_Test.dir/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soeromibergusti/AttitudeMathLib/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/AML_Test.dir/main.cpp.o"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AML_Test.dir/main.cpp.o -c /home/soeromibergusti/AttitudeMathLib/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/AML_Test.dir/main.cpp.o"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AML_Test.dir/main.cpp.o -c /home/soeromibergusti/Attitude-Math-Library/test/main.cpp
 
 test/CMakeFiles/AML_Test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AML_Test.dir/main.cpp.i"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soeromibergusti/AttitudeMathLib/test/main.cpp > CMakeFiles/AML_Test.dir/main.cpp.i
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soeromibergusti/Attitude-Math-Library/test/main.cpp > CMakeFiles/AML_Test.dir/main.cpp.i
 
 test/CMakeFiles/AML_Test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AML_Test.dir/main.cpp.s"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soeromibergusti/AttitudeMathLib/test/main.cpp -o CMakeFiles/AML_Test.dir/main.cpp.s
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soeromibergusti/Attitude-Math-Library/test/main.cpp -o CMakeFiles/AML_Test.dir/main.cpp.s
 
 test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o: test/CMakeFiles/AML_Test.dir/flags.make
 test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o: ../test/AMLVector3Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soeromibergusti/AttitudeMathLib/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o -c /home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o -c /home/soeromibergusti/Attitude-Math-Library/test/AMLVector3Test.cpp
 
 test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp > CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soeromibergusti/Attitude-Math-Library/test/AMLVector3Test.cpp > CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.i
 
 test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soeromibergusti/AttitudeMathLib/test/AMLVector3Test.cpp -o CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soeromibergusti/Attitude-Math-Library/test/AMLVector3Test.cpp -o CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.s
+
+test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o: test/CMakeFiles/AML_Test.dir/flags.make
+test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o: ../test/AMLMatrix33Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o -c /home/soeromibergusti/Attitude-Math-Library/test/AMLMatrix33Test.cpp
+
+test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.i"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soeromibergusti/Attitude-Math-Library/test/AMLMatrix33Test.cpp > CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.i
+
+test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.s"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soeromibergusti/Attitude-Math-Library/test/AMLMatrix33Test.cpp -o CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.s
 
 # Object files for target AML_Test
 AML_Test_OBJECTS = \
 "CMakeFiles/AML_Test.dir/main.cpp.o" \
-"CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o"
+"CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o" \
+"CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o"
 
 # External object files for target AML_Test
 AML_Test_EXTERNAL_OBJECTS =
 
 test/AML_Test: test/CMakeFiles/AML_Test.dir/main.cpp.o
 test/AML_Test: test/CMakeFiles/AML_Test.dir/AMLVector3Test.cpp.o
+test/AML_Test: test/CMakeFiles/AML_Test.dir/AMLMatrix33Test.cpp.o
 test/AML_Test: test/CMakeFiles/AML_Test.dir/build.make
 test/AML_Test: AML/libAML.a
 test/AML_Test: test/CMakeFiles/AML_Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soeromibergusti/AttitudeMathLib/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AML_Test"
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AML_Test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soeromibergusti/Attitude-Math-Library/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AML_Test"
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AML_Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/AML_Test.dir/build: test/AML_Test
@@ -105,10 +120,10 @@ test/CMakeFiles/AML_Test.dir/build: test/AML_Test
 .PHONY : test/CMakeFiles/AML_Test.dir/build
 
 test/CMakeFiles/AML_Test.dir/clean:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir/test && $(CMAKE_COMMAND) -P CMakeFiles/AML_Test.dir/cmake_clean.cmake
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir/test && $(CMAKE_COMMAND) -P CMakeFiles/AML_Test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/AML_Test.dir/clean
 
 test/CMakeFiles/AML_Test.dir/depend:
-	cd /home/soeromibergusti/AttitudeMathLib/build-dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soeromibergusti/AttitudeMathLib /home/soeromibergusti/AttitudeMathLib/test /home/soeromibergusti/AttitudeMathLib/build-dir /home/soeromibergusti/AttitudeMathLib/build-dir/test /home/soeromibergusti/AttitudeMathLib/build-dir/test/CMakeFiles/AML_Test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soeromibergusti/Attitude-Math-Library/build-dir && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soeromibergusti/Attitude-Math-Library /home/soeromibergusti/Attitude-Math-Library/test /home/soeromibergusti/Attitude-Math-Library/build-dir /home/soeromibergusti/Attitude-Math-Library/build-dir/test /home/soeromibergusti/Attitude-Math-Library/build-dir/test/CMakeFiles/AML_Test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/AML_Test.dir/depend
 

@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.cpp
+/home/soeromibergusti/Attitude-Math-Library/AML/AMLMatrix33.cpp
+AMLMatrix33.h
+/home/soeromibergusti/Attitude-Math-Library/AML/AMLMatrix33.h
 AMLVector3.h
-/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.h
+/home/soeromibergusti/Attitude-Math-Library/AML/AMLVector3.h
 cmath
 -
 
-/home/soeromibergusti/AttitudeMathLib/AML/AMLVector3.h
+/home/soeromibergusti/Attitude-Math-Library/AML/AMLMatrix33.h
+iostream
+-
+
+/home/soeromibergusti/Attitude-Math-Library/AML/AMLVector3.h
 iostream
 -
 
